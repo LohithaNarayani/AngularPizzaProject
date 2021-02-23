@@ -1,0 +1,22 @@
+<nav class="navbar" style="justify-content: center;">
+    <input class="form-control" type="text" name="size" [(ngModel)]="size" (ngModelChange)="onSearch()"
+    placeholder="Enter size to search" style="width: 50%;">
+</nav> 
+
+
+<div class="row"> 
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor="let veg of vegpizzaList"> 
+        <mat-card>
+                <mat-card-title>Pizza Name: {{veg.vname}}</mat-card-title>
+                <img class="card-img-top" mat-card-image src="{{veg.image}}" alt="{{veg.vname}}">
+                <mat-card-subtitle style="font-size: large;font-weight: bold;">Pizza Size: {{veg.size}}</mat-card-subtitle>
+                <mat-card-content style="font-size: large;font-weight: bold;">Price: {{veg.price}}</mat-card-content>
+                
+                
+                <mat-card-actions>
+                    <button mat-raised-button color="primary" (click)="addToCart(veg.vname,veg.price,veg.size,veg.image)">Add To Cart</button>
+                    <button mat-raised-button color="accent" >Buy</button>
+                </mat-card-actions>
+        </mat-card>
+    </div>
+</div>

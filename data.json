@@ -1,0 +1,150 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Lohitha",
+      "email": "lohitha123@gmail.com",
+      "pass": "Lohitha@123"
+    },
+    {
+      "id": 2,
+      "username": "Vishnu",
+      "email": "vishnu.lohi@gmail.com",
+      "pass": "Vishnu*99"
+    },
+    {
+      "username": "Mukund",
+      "email": "mukundh.arya@gmail.com",
+      "pass": "Mukundh@123",
+      "id": 3
+    }
+  ],
+  "Admin": [
+    {
+      "id": 1,
+      "aname": "Monisha",
+      "emailid": "monisha.swarna@gmail.com",
+      "password": "Moni@1234"
+    },
+    {
+      "id": 2,
+      "aname": "Pavithra",
+      "emailid": "pavi.padma@gmail.com",
+      "password": "Padma@1234"
+    }
+  ],
+  "vegpizzas": [
+    {
+      "id": 1,
+      "vname": "Peppy Paneer",
+      "size": "large",
+      "image": "assets/Peppy_Paneer.jpg",
+      "price": "Rs450"
+    },
+    {
+      "id": 2,
+      "vname": "Veg Extravaganza",
+      "size": "medium",
+      "image": "assets/Veg_Extravaganz.jpg",
+      "price": "Rs380"
+    },
+    {
+      "id": 3,
+      "vname": "Paneer Makhani",
+      "size": "small",
+      "image": "assets/Paneer_Makhni.jpg",
+      "price": "Rs290"
+    },
+    {
+      "id": 4,
+      "vname": "Farm House",
+      "size": "large",
+      "image": "assets/Farmhouse.jpg",
+      "price": "Rs450"
+    },
+    {
+      "id": 5,
+      "vname": "Double Cheese Margherit Pizza",
+      "size": "medium",
+      "image": "assets/Margherit-pizza.jpg",
+      "price": "Rs380"
+    },
+    {
+      "id": 6,
+      "vname": "Indian Tandoori Paneer",
+      "size": "medium",
+      "image": "assets/IndianTandooriPaneer.jpg",
+      "price": "Rs380"
+    }
+  ],
+  "nonvegpizzas": [
+    {
+      "id": 1,
+      "nvname": "Chicken Golden Delight",
+      "size": "large",
+      "image": "assets/Chicken_Golden_Delight.jpg",
+      "price": "Rs650"
+    },
+    {
+      "id": 2,
+      "nvname": "Non-Veg Supreme",
+      "size": "medium",
+      "image": "assets/Non-Veg-Supreme.jpg",
+      "price": "Rs500"
+    },
+    {
+      "id": 3,
+      "nvname": "Chicken Sausage",
+      "size": "small",
+      "image": "assets/Chicken_Sausage.jpg",
+      "price": "Rs480"
+    },
+    {
+      "id": 4,
+      "nvname": "Indian Chicken Tikka",
+      "size": "large",
+      "image": "assets/IndianChickenTikka.jpg",
+      "price": "Rs650"
+    },
+    {
+      "id": 5,
+      "nvname": "Chicken Dominator",
+      "size": "medium",
+      "image": "assets/Chicken-Dominator.jpg",
+      "price": "Rs500"
+    },
+    {
+      "id": 6,
+      "nvname": "Pepper-Chicken Barbeque & Onion",
+      "size": "small",
+      "image": "assets/Pepper_Barbeque&Onion.jpg",
+      "price": "Rs480"
+    }
+  ],
+  "cartitems": [
+    {
+      "id": 1,
+      "vname": "Peppy Paneer",
+      "size": "large",
+      "price": "Rs450",
+      "addtocart": "yes",
+      "buy": "no"
+    },
+    {
+      "vname": "Double Cheese Margherit Pizza",
+      "price": "Rs380",
+      "size": "medium",
+      "addtocart": "yes",
+      "buy": "no",
+      "id": 3
+    },
+    {
+      "nvname": "Chicken Sausage",
+      "price": "Rs480",
+      "size": "small",
+      "addtocart": "yes",
+      "buy": "no",
+      "id": 4
+    }
+  ]
+}
